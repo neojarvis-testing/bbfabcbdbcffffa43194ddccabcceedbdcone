@@ -10,20 +10,6 @@
           <include name="TC_003"/>
         </methods>
       </class> <!-- runner.Testcase3 -->
-      <class name="runner.Testcase2">
-        <methods>
-          <include name="beforeMethod"/>
-          <include name="afterMethod"/>
-          <include name="TC_002"/>
-        </methods>
-      </class> <!-- runner.Testcase2 -->
-      <class name="runner.Testcase1">
-        <methods>
-          <include name="beforeMethod"/>
-          <include name="TC_001"/>
-          <include name="afterMethod"/>
-        </methods>
-      </class> <!-- runner.Testcase1 -->
     </classes>
   </test> <!-- Surefire test(failed) -->
 </suite> <!-- Failed suite [Surefire suite] -->
